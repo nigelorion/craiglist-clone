@@ -1,0 +1,60 @@
+.main-landing {
+  background-image: url(../assets/background.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: grayscale(50%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  .hero {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  .slogan {
+
+    margin-bottom: 10%;
+    font-size: 5em;
+  }
+  .search {
+    display: flex;
+
+    input {
+      width: 500px;
+      height: 50px;
+      padding-left: 5%;
+      font-size: 1.5em;
+      transition: all 1000ms;
+      border: none;
+      background-color: rgba(255,255,255,0.7);
+      &:hover {
+        // transform: skew(180deg);
+      }
+
+
+    }
+    .hero-button {
+      width:120px;
+      height: 50px;
+      background-color: #DEA692;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5em;
+      transition: all 300ms;
+      &:hover {
+        background-color: white;
+        color: gray;
+        cursor: pointer;
+      }
+    }
+  }
+}
